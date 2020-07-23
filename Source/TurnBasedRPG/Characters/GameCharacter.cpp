@@ -4,6 +4,7 @@
 #include "GameCharacter.h"
 
 #include "TurnBasedRPG/Actions/TestCombatAction.h"
+#include "TurnBasedRPG/DecisionMakers/TestDecisionMaker.h"
 
 UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInfo, UObject* Outer)
 {
@@ -35,6 +36,8 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
         Character->ATK = Character->ClassInfo->StartATK;
         Character->DEF = Character->ClassInfo->StartDEF;
         Character->LUCK = Character->ClassInfo->StartLuck;
+
+        Character->DecisionMaker = new TestDecisionMaker();
     }
 
     return Character;
@@ -61,23 +64,26 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FEnemyInfo* EnemyInfo, UObje
     Character->DEF = EnemyInfo->DEF;
     Character->LUCK = EnemyInfo->Luck;
 
+    Character->DecisionMaker = new TestDecisionMaker();
+
     return Character;
 }
 
 void UGameCharacter::BeginDestroy()
 {
     Super::BeginDestroy();
+
+    delete(this->DecisionMaker);
 }
 
 void UGameCharacter::BeginMakeDecision()
 {
-    UE_LOG(LogTemp, Log, TEXT( "Character %s making decision" ), *this->CharacterName);
-    this->CombatAction = new TestCombatAction();
+    this->DecisionMaker->BeginMakeDecision(this);
 }
 
 bool UGameCharacter::MakeDecision(float DeltaSeconds)
 {
-    return true;
+    return this->DecisionMaker->MakeDecision(DeltaSeconds);
 }
 
 void UGameCharacter::BeginExecuteAction()

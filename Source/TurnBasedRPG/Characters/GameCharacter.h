@@ -8,6 +8,8 @@
 #include "TurnBasedRPG/Data/CharacterClassInfo.h"
 #include "TurnBasedRPG/Combat/CombatEngine.h"
 #include "TurnBasedRPG/Data/EnemyInfo.h"
+#include "TurnBasedRPG/DecisionMakers/DecisionMaker.h"
+
 
 
 #include "GameCharacter.generated.h"
@@ -53,8 +55,9 @@ public:
 
     virtual void BeginDestroy() override;
 
-protected:
+public:
     ICombatAction* CombatAction;
+    IDecisionMaker* DecisionMaker;
 
 public:
     void BeginMakeDecision();

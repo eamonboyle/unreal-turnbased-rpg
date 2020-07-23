@@ -9,6 +9,8 @@ class UGameCharacter;
 class TURNBASEDRPG_API ICombatAction
 {
 public:
+    virtual ~ICombatAction();
+    
     virtual void BeginExecuteAction(UGameCharacter* Character) = 0;
     virtual bool ExecuteAction(float DeltaSeconds) = 0;
 };

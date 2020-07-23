@@ -51,6 +51,12 @@
             <e p="EnemyInfo.cpp" t="Include" />
             <e p="EnemyInfo.h" t="Include" />
           </e>
+          <e p="DecisionMakers" t="Include">
+            <e p="DecisionMaker.cpp" t="Include" />
+            <e p="DecisionMaker.h" t="Include" />
+            <e p="TestDecisionMaker.cpp" t="Include" />
+            <e p="TestDecisionMaker.h" t="Include" />
+          </e>
           <e p="GameModes" t="Include">
             <e p="RPGGameMode.cpp" t="Include" />
             <e p="RPGGameMode.h" t="Include" />
