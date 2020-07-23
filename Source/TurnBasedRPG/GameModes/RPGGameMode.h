@@ -16,4 +16,6 @@ class TURNBASEDRPG_API ARPGGameMode : public AGameMode
 
 public:
     ARPGGameMode(const class FObjectInitializer& ObjectInitializer);
+
+    virtual void BeginPlay() override;
 };

@@ -28,6 +28,8 @@
             <e p="TestCustomData.h" t="Include" />
           </e>
           <e p="Characters" t="Include">
+            <e p="GameCharacter.cpp" t="Include" />
+            <e p="GameCharacter.h" t="Include" />
             <e p="RPGCharacter.cpp" t="Include" />
             <e p="RPGCharacter.h" t="Include" />
           </e>
@@ -42,6 +44,10 @@
           <e p="GameModes" t="Include">
             <e p="RPGGameMode.cpp" t="Include" />
             <e p="RPGGameMode.h" t="Include" />
+          </e>
+          <e p="Management" t="Include">
+            <e p="RPGGameInstance.cpp" t="Include" />
+            <e p="RPGGameInstance.h" t="Include" />
           </e>
           <e p="TurnBasedRPG.Build.cs" t="Include" />
           <e p="TurnBasedRPG.cpp" t="Include" />

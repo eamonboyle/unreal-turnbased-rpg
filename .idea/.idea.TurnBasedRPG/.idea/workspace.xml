@@ -25,7 +25,11 @@
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,6 +46,10 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" />
       </list>
     </option>
   </component>
@@ -477,7 +485,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="6325000" />
+      <workItem from="1595503400465" duration="7713000" />
     </task>
     <servers />
   </component>
