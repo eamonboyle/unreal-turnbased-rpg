@@ -4,6 +4,7 @@
     <e p="C:\Users\blaow\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\blaow\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\ReSharperHost\v202\SolutionCaches\_TurnBasedRPG.-1971100361.00" t="ExcludeRecursive" />
     <e p="C:\Users\blaow\OneDrive\Documents\Unreal\TurnBasedRPG" t="IncludeFlat">
+      <e p=".gitignore" t="Include" />
       <e p="Config" t="Include">
         <e p="DefaultEditor.ini" t="Include" />
         <e p="DefaultEngine.ini" t="Include" />
@@ -20,6 +21,8 @@
       <e p="Source" t="Include">
         <e p="TurnBasedRPG" t="Include">
           <e p="Actors" t="Include">
+            <e p="MyNewActor.cpp" t="Include" />
+            <e p="MyNewActor.h" t="Include" />
             <e p="TestCustomData.cpp" t="Include" />
             <e p="TestCustomData.h" t="Include" />
           </e>

@@ -10,6 +10,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -17,6 +19,7 @@
       <list>
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" />
       </list>
     </option>
   </component>
@@ -452,7 +455,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="1653000" />
+      <workItem from="1595503400465" duration="2004000" />
     </task>
     <servers />
   </component>
