@@ -45,6 +45,11 @@ void ARPGGameMode::Tick(float DeltaSeconds)
             UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetActorTickEnabled(true);
 
             // clear up
+            for (int i = 0; i < this->CurrentCombatInstance->PlayerParty.Num(); i++)
+            {
+                this->CurrentCombatInstance->PlayerParty[i]->DecisionMaker = nullptr;
+            }
+            
             this->CombatUIInstance->RemoveFromViewport();
             this->CombatUIInstance = nullptr;
             
@@ -96,6 +101,7 @@ void ARPGGameMode::TestCombat()
     for(int i = 0; i < GameInstance->PartyMembers.Num(); i++)
     {
         this->CombatUIInstance->AddPlayerCharacterPanel(GameInstance->PartyMembers[i]);
+        GameInstance->PartyMembers[i]->DecisionMaker = this->CombatUIInstance;
     }
 
     for (int i = 0; i < this->EnemyParty.Num(); i++)

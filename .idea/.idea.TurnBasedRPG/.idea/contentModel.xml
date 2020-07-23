@@ -21,12 +21,6 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Source" t="Include">
         <e p="TurnBasedRPG" t="Include">
-          <e p="Actions" t="Include">
-            <e p="CombatAction.cpp" t="Include" />
-            <e p="CombatAction.h" t="Include" />
-            <e p="TestCombatAction.cpp" t="Include" />
-            <e p="TestCombatAction.h" t="Include" />
-          </e>
           <e p="Actors" t="Include">
             <e p="MyNewActor.cpp" t="Include" />
             <e p="MyNewActor.h" t="Include" />
@@ -40,8 +34,20 @@
             <e p="RPGCharacter.h" t="Include" />
           </e>
           <e p="Combat" t="Include">
+            <e p="Actions" t="Include">
+              <e p="CombatAction.cpp" t="Include" />
+              <e p="CombatAction.h" t="Include" />
+              <e p="TestCombatAction.cpp" t="Include" />
+              <e p="TestCombatAction.h" t="Include" />
+            </e>
             <e p="CombatEngine.cpp" t="Include" />
             <e p="CombatEngine.h" t="Include" />
+            <e p="DecisionMakers" t="Include">
+              <e p="DecisionMaker.cpp" t="Include" />
+              <e p="DecisionMaker.h" t="Include" />
+              <e p="TestDecisionMaker.cpp" t="Include" />
+              <e p="TestDecisionMaker.h" t="Include" />
+            </e>
           </e>
           <e p="Data" t="Include">
             <e p="CharacterClassInfo.cpp" t="Include" />
@@ -50,12 +56,6 @@
             <e p="CharacterInfo.h" t="Include" />
             <e p="EnemyInfo.cpp" t="Include" />
             <e p="EnemyInfo.h" t="Include" />
-          </e>
-          <e p="DecisionMakers" t="Include">
-            <e p="DecisionMaker.cpp" t="Include" />
-            <e p="DecisionMaker.h" t="Include" />
-            <e p="TestDecisionMaker.cpp" t="Include" />
-            <e p="TestDecisionMaker.h" t="Include" />
           </e>
           <e p="GameModes" t="Include">
             <e p="RPGGameMode.cpp" t="Include" />

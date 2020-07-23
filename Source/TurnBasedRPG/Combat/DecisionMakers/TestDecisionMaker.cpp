@@ -3,7 +3,7 @@
 
 #include "TestDecisionMaker.h"
 
-#include "../Characters/GameCharacter.h"
+#include "../../Characters/GameCharacter.h"
 #include "../Actions/TestCombatAction.h"
 
 void TestDecisionMaker::BeginMakeDecision(UGameCharacter* Character)

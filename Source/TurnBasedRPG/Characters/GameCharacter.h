@@ -3,12 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "TurnBasedRPG/Actions/CombatAction.h"
+#include "TurnBasedRPG/Combat/Actions/CombatAction.h"
 #include "TurnBasedRPG/Data/CharacterInfo.h"
 #include "TurnBasedRPG/Data/CharacterClassInfo.h"
 #include "TurnBasedRPG/Combat/CombatEngine.h"
 #include "TurnBasedRPG/Data/EnemyInfo.h"
-#include "TurnBasedRPG/DecisionMakers/DecisionMaker.h"
+#include "TurnBasedRPG/Combat/DecisionMakers/DecisionMaker.h"
 
 
 

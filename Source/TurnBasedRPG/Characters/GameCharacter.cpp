@@ -3,8 +3,8 @@
 
 #include "GameCharacter.h"
 
-#include "TurnBasedRPG/Actions/TestCombatAction.h"
-#include "TurnBasedRPG/DecisionMakers/TestDecisionMaker.h"
+#include "TurnBasedRPG/Combat/Actions/TestCombatAction.h"
+#include "TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.h"
 
 UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInfo, UObject* Outer)
 {
@@ -42,7 +42,7 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
         Character->DEF = Character->ClassInfo->StartDEF;
         Character->LUCK = Character->ClassInfo->StartLuck;
 
-        Character->DecisionMaker = new TestDecisionMaker();
+        // Character->DecisionMaker = new TestDecisionMaker();
     }
 
     Character->IsPlayer = true;
@@ -83,7 +83,10 @@ void UGameCharacter::BeginDestroy()
 {
     Super::BeginDestroy();
 
-    delete(this->DecisionMaker);
+    if (!this->IsPlayer)
+    {
+        delete(this->DecisionMaker);
+    }
 }
 
 UGameCharacter* UGameCharacter::SelectTarget()
