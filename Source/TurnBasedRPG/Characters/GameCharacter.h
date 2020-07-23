@@ -6,6 +6,8 @@
 #include "TurnBasedRPG/Data/CharacterInfo.h"
 #include "TurnBasedRPG/Data/CharacterClassInfo.h"
 #include "TurnBasedRPG/Combat/CombatEngine.h"
+#include "TurnBasedRPG/Data/EnemyInfo.h"
+
 
 #include "GameCharacter.generated.h"
 
@@ -46,6 +48,7 @@ public:
     CombatEngine* CombatInstance;
 
     static UGameCharacter* CreateGameCharacter(FCharacterInfo* CharacterInfo, UObject* Outer);
+    static UGameCharacter* CreateGameCharacter(FEnemyInfo* EnemyInfo, UObject* Outer);
 
     virtual void BeginDestroy() override;
 

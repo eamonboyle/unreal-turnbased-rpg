@@ -48,12 +48,12 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
       </list>
     </option>
   </component>
@@ -489,7 +489,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="10057000" />
+      <workItem from="1595503400465" duration="11318000" />
     </task>
     <servers />
   </component>
@@ -502,10 +502,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1595516739157">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595517617612">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595516739157" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595517617612" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595506957869">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

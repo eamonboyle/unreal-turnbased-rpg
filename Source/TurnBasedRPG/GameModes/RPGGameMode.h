@@ -18,4 +18,11 @@ public:
     ARPGGameMode(const class FObjectInitializer& ObjectInitializer);
 
     virtual void BeginPlay() override;
+    virtual void Tick(float DeltaSeconds) override;
+
+    class CombatEngine* CurrentCombatInstance;
+    TArray<class UGameCharacter*> EnemyParty;
+
+    UFUNCTION(Exec)
+    void TestCombat();
 };

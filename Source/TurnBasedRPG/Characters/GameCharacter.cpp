@@ -38,6 +38,30 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
     return Character;
 }
 
+UGameCharacter* UGameCharacter::CreateGameCharacter(FEnemyInfo* EnemyInfo, UObject* Outer)
+{
+    UGameCharacter* Character = NewObject<UGameCharacter>(Outer);
+
+    if (Character == nullptr)
+    {
+        return nullptr;
+    }
+
+    Character->CharacterName = EnemyInfo->EnemyName;
+    Character->ClassInfo = nullptr;
+
+    Character->MHP = EnemyInfo->MHP;
+    Character->MMP = 0;
+    Character->HP = EnemyInfo->MHP;
+    Character->MP = 0;
+
+    Character->ATK = EnemyInfo->ATK;
+    Character->DEF = EnemyInfo->DEF;
+    Character->LUCK = EnemyInfo->Luck;
+
+    return Character;
+}
+
 void UGameCharacter::BeginDestroy()
 {
     Super::BeginDestroy();
