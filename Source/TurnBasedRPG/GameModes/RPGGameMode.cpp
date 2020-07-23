@@ -39,10 +39,15 @@ void ARPGGameMode::Tick(float DeltaSeconds)
                 UE_LOG(LogTemp, Warning, TEXT("Player wins combat"));
             }
 
+            UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = false;
+
             // enable player actor
             UGameplayStatics::GetPlayerController(GetWorld(), 0)->SetActorTickEnabled(true);
 
             // clear up
+            this->CombatUIInstance->RemoveFromViewport();
+            this->CombatUIInstance = nullptr;
+            
             delete(this->CurrentCombatInstance);
             this->CurrentCombatInstance = nullptr;
             this->EnemyParty.Empty();
@@ -82,4 +87,19 @@ void ARPGGameMode::TestCombat()
     this->CurrentCombatInstance = new CombatEngine(GameInstance->PartyMembers, this->EnemyParty);
 
     UE_LOG(LogTemp, Warning, TEXT("Combat Test Started!"));
+
+    this->CombatUIInstance = CreateWidget<UCombatUIWidget>(GetGameInstance(), this->CombatUIClass);
+    this->CombatUIInstance->AddToViewport();
+
+    UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = true;
+
+    for(int i = 0; i < GameInstance->PartyMembers.Num(); i++)
+    {
+        this->CombatUIInstance->AddPlayerCharacterPanel(GameInstance->PartyMembers[i]);
+    }
+
+    for (int i = 0; i < this->EnemyParty.Num(); i++)
+    {
+        this->CombatUIInstance->AddEnemyCharacterPanel(this->EnemyParty[i]);
+    }
 }

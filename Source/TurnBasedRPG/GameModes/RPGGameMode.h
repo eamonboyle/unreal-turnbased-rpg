@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameMode.h"
+#include "TurnBasedRPG/UI/CombatUIWidget.h"
+
 #include "RPGGameMode.generated.h"
 
 /**
@@ -22,6 +24,12 @@ public:
 
     class CombatEngine* CurrentCombatInstance;
     TArray<class UGameCharacter*> EnemyParty;
+
+    UPROPERTY()
+    UCombatUIWidget* CombatUIInstance;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "UI")
+    TSubclassOf<UCombatUIWidget> CombatUIClass;
 
     UFUNCTION(Exec)
     void TestCombat();

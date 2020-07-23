@@ -70,6 +70,10 @@
           <e p="TurnBasedRPG.h" t="Include" />
           <e p="TurnBasedRPGGameModeBase.cpp" t="Include" />
           <e p="TurnBasedRPGGameModeBase.h" t="Include" />
+          <e p="UI" t="Include">
+            <e p="CombatUIWidget.cpp" t="Include" />
+            <e p="CombatUIWidget.h" t="Include" />
+          </e>
         </e>
         <e p="TurnBasedRPG.Target.cs" t="Include" />
         <e p="TurnBasedRPGEditor.Target.cs" t="Include" />
