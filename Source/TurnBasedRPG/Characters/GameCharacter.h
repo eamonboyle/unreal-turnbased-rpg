@@ -59,6 +59,10 @@ public:
     ICombatAction* CombatAction;
     IDecisionMaker* DecisionMaker;
 
+    bool IsPlayer;
+
+    UGameCharacter* SelectTarget();
+
 public:
     void BeginMakeDecision();
     bool MakeDecision(float DeltaSeconds);

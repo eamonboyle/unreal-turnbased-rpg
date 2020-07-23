@@ -64,16 +64,16 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Action/TestCombatAction.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Action/TestCombatAction.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatAction.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/DecisionMakers/TestDecisionMaker.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/DecisionMakers/TestDecisionMaker.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/DecisionMakers/DecisionMaker.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/DecisionMakers/DecisionMaker.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/CombatAction.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/CombatAction.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.cpp" />
       </list>
     </option>
   </component>
@@ -509,7 +509,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="16622000" />
+      <workItem from="1595503400465" duration="18493000" />
     </task>
     <servers />
   </component>
@@ -522,10 +522,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1595523460634">
+    <state x="668" y="164" key="RiderGenerateDialog" timestamp="1595527879758">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595523460634" />
+    <state x="668" y="164" key="RiderGenerateDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595527879758" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595527815071">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595527815071" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595506957869">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

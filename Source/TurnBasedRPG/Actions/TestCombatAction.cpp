@@ -5,9 +5,32 @@
 
 #include "TurnBasedRPG/Characters/GameCharacter.h"
 
-void TestCombatAction::BeginExecuteAction(UGameCharacter* Character)
+TestCombatAction::TestCombatAction(UGameCharacter* Target)
+    : DelayTimer(0), Character(nullptr)
 {
-    UE_LOG(LogTemp, Warning, TEXT("%s does nothing"), *Character->CharacterName);
+    this->Target = Target;
+}
+
+void TestCombatAction::BeginExecuteAction(UGameCharacter* NewCharacter)
+{
+    this->Character = NewCharacter;
+
+    // target is dead, select another target
+    if (this->Target->HP <= 0)
+    {
+        this->Target = this->Character->SelectTarget();
+    }
+
+    // no target, just return
+    if (this->Target == nullptr)
+    {
+        return;
+    }
+
+    UE_LOG(LogTemp, Warning, TEXT("%s attacks %s"), *Character->CharacterName, *Target->CharacterName);
+
+    Target->HP -= 10;
+
     this->DelayTimer = 1.f;
 }
 

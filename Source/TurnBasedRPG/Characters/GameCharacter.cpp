@@ -11,9 +11,13 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
     UGameCharacter* Character = NewObject<UGameCharacter>(Outer);
 
     // locate character classes asset
-    UDataTable* CharacterClasses = Cast<UDataTable>(StaticLoadObject(UDataTable::StaticClass(), NULL,
-                                                                     TEXT(
-                                                                         "DataTable'/Game/Data/DT_CharacterClasses.DT_CharacterClasses'")));
+    UDataTable* CharacterClasses = Cast<UDataTable>(
+        StaticLoadObject(
+            UDataTable::StaticClass(),
+            nullptr,
+            TEXT("DataTable'/Game/Data/DT_CharacterClasses.DT_CharacterClasses'")
+        )
+    );
 
     if (CharacterClasses == nullptr)
     {
@@ -27,6 +31,7 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
 
     if (Row != nullptr)
     {
+        // setup the player character
         Character->ClassInfo = Row;
         Character->MHP = Character->ClassInfo->StartMHP;
         Character->MMP = Character->ClassInfo->StartMMP;
@@ -40,6 +45,8 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
         Character->DecisionMaker = new TestDecisionMaker();
     }
 
+    Character->IsPlayer = true;
+
     return Character;
 }
 
@@ -52,6 +59,7 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FEnemyInfo* EnemyInfo, UObje
         return nullptr;
     }
 
+    // set up the enemy character
     Character->CharacterName = EnemyInfo->EnemyName;
     Character->ClassInfo = nullptr;
 
@@ -66,6 +74,8 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FEnemyInfo* EnemyInfo, UObje
 
     Character->DecisionMaker = new TestDecisionMaker();
 
+    Character->IsPlayer = false;
+
     return Character;
 }
 
@@ -74,6 +84,39 @@ void UGameCharacter::BeginDestroy()
     Super::BeginDestroy();
 
     delete(this->DecisionMaker);
+}
+
+UGameCharacter* UGameCharacter::SelectTarget()
+{
+    UGameCharacter* Target = nullptr;
+
+    // initialise with enemies
+    TArray<UGameCharacter*> TargetList = this->CombatInstance->EnemyParty;
+
+    // if it is the enemy, set target to players team
+    if (!this->IsPlayer)
+    {
+        TargetList = this->CombatInstance->PlayerParty;
+    }
+
+    // loop through the target list and pull out the first target that
+    // is alive
+    for (int i = 0; i < TargetList.Num(); i++)
+    {
+        if (TargetList[i]->HP > 0)
+        {
+            Target = TargetList[i];
+            break;
+        }
+    }
+
+    // if the target is dead return null
+    if (Target->HP <= 0)
+    {
+        return nullptr;
+    }
+
+    return Target;
 }
 
 void UGameCharacter::BeginMakeDecision()

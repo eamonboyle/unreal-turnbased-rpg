@@ -10,8 +10,12 @@ class TURNBASEDRPG_API TestCombatAction : public ICombatAction
 {
 protected:
     float DelayTimer;
+    UGameCharacter* Character;
+    UGameCharacter* Target;
 
 public:
+    TestCombatAction(UGameCharacter* Target);
+    
     virtual void BeginExecuteAction(UGameCharacter* Character) override;
     virtual bool ExecuteAction(float DeltaSeconds) override;
 };

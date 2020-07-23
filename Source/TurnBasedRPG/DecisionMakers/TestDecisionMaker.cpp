@@ -8,7 +8,9 @@
 
 void TestDecisionMaker::BeginMakeDecision(UGameCharacter* Character)
 {
-    Character->CombatAction = new TestCombatAction();
+    // pick a target
+    UGameCharacter* Target = Character->SelectTarget();
+    Character->CombatAction = new TestCombatAction(Target);
 }
 
 bool TestDecisionMaker::MakeDecision(float DeltaSeconds)
