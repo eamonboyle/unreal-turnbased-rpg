@@ -8,7 +8,9 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
     UGameCharacter* Character = NewObject<UGameCharacter>(Outer);
 
     // locate character classes asset
-    UDataTable* CharacterClasses = Cast<UDataTable>(StaticLoadObject(UDataTable::StaticClass(), NULL, TEXT("DataTable'/Game/Data/DT_CharacterClasses.DT_CharacterClasses'")));
+    UDataTable* CharacterClasses = Cast<UDataTable>(StaticLoadObject(UDataTable::StaticClass(), NULL,
+                                                                     TEXT(
+                                                                         "DataTable'/Game/Data/DT_CharacterClasses.DT_CharacterClasses'")));
 
     if (CharacterClasses == nullptr)
     {
@@ -17,7 +19,8 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
     }
 
     Character->CharacterName = CharacterInfo->Character_Name;
-    FCharacterClassInfo* Row = CharacterClasses->FindRow<FCharacterClassInfo>(*(CharacterInfo->Class_ID), TEXT("LookupCharacterClass"));
+    FCharacterClassInfo* Row = CharacterClasses->FindRow<FCharacterClassInfo>(
+        *(CharacterInfo->Class_ID), TEXT("LookupCharacterClass"));
 
     if (Row != nullptr)
     {
@@ -38,4 +41,28 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
 void UGameCharacter::BeginDestroy()
 {
     Super::BeginDestroy();
+}
+
+void UGameCharacter::BeginMakeDecision()
+{
+    UE_LOG(LogTemp, Log, TEXT( "Character %s making decision" ), *this->CharacterName);
+    this->TestDelayTimer = 1;
+}
+
+bool UGameCharacter::MakeDecision(float DeltaSeconds)
+{
+    this->TestDelayTimer -= DeltaSeconds;
+    return this->TestDelayTimer <= 0;
+}
+
+void UGameCharacter::BeginExecuteAction()
+{
+    UE_LOG(LogTemp, Log, TEXT( "Character %s executing action" ), *this->CharacterName);
+    this->TestDelayTimer = 1;
+}
+
+bool UGameCharacter::ExecuteAction(float DeltaSeconds)
+{
+    this->TestDelayTimer -= DeltaSeconds;
+    return this->TestDelayTimer <= 0;
 }

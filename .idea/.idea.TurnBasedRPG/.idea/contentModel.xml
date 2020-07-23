@@ -33,6 +33,10 @@
             <e p="RPGCharacter.cpp" t="Include" />
             <e p="RPGCharacter.h" t="Include" />
           </e>
+          <e p="Combat" t="Include">
+            <e p="CombatEngine.cpp" t="Include" />
+            <e p="CombatEngine.h" t="Include" />
+          </e>
           <e p="Data" t="Include">
             <e p="CharacterClassInfo.cpp" t="Include" />
             <e p="CharacterClassInfo.h" t="Include" />
