@@ -24,4 +24,6 @@ protected:
 
 public:
     virtual void Init() override;
+
+    void PrepareReset();
 };

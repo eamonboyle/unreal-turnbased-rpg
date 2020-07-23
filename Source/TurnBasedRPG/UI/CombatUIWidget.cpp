@@ -21,6 +21,8 @@ bool UCombatUIWidget::MakeDecision(float DeltaSeconds)
 
 void UCombatUIWidget::AttackTarget(UGameCharacter* Target)
 {
+    UE_LOG(LogTemp, Warning, TEXT("ATTACK TARGET"));
+    
     TestCombatAction* Action = new TestCombatAction(Target);
     this->CurrentTarget->CombatAction = Action;
 

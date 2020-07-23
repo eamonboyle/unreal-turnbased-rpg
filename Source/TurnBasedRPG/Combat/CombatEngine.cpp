@@ -148,14 +148,17 @@ void CombatEngine::SetPhase(CombatPhase NewPhase)
     case CombatPhase::CPHASE_Action:
     case CombatPhase::CPHASE_Decision:
         // set the active target to the first character in the combat order
+        UE_LOG(LogTemp, Warning, TEXT("DECISION PHASE"));
         this->TickTargetIndex = 0;
         this->SelectNextCharacter();
         break;
     case CombatPhase::CPHASE_Victory:
         // TODO: handle victory
+        UE_LOG(LogTemp, Warning, TEXT("VICTORY"));
         break;
     case CombatPhase::CPHASE_GameOver:
         // TODO: handle game over
+        UE_LOG(LogTemp, Warning, TEXT("GAMEOVER"));
         break;
     }
 }

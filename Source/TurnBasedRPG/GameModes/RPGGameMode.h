@@ -31,6 +31,9 @@ public:
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "UI")
     TSubclassOf<UCombatUIWidget> CombatUIClass;
 
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "UI")
+    TSubclassOf<class UUserWidget> GameOverUIClass;
+
     UFUNCTION(Exec)
     void TestCombat();
 };

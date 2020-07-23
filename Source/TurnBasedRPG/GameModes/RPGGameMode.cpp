@@ -33,6 +33,11 @@ void ARPGGameMode::Tick(float DeltaSeconds)
             if (this->CurrentCombatInstance->Phase == CombatPhase::CPHASE_GameOver)
             {
                 UE_LOG(LogTemp, Warning, TEXT("Player loses combat, game over"));
+
+                Cast<URPGGameInstance>(GetGameInstance())->PrepareReset();
+
+                UUserWidget* GameOverUIInstance = CreateWidget<UUserWidget>(GetGameInstance(), this->GameOverUIClass);
+                GameOverUIInstance->AddToViewport();
             }
             else if (this->CurrentCombatInstance->Phase == CombatPhase::CPHASE_Victory)
             {

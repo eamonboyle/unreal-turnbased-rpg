@@ -38,3 +38,9 @@ void URPGGameInstance::Init()
 
     this->IsInitialized = true;
 }
+
+void URPGGameInstance::PrepareReset()
+{
+    this->IsInitialized = false;
+    this->PartyMembers.Empty();
+}
