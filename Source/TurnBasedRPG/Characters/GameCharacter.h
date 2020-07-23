@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "TurnBasedRPG/Actions/CombatAction.h"
 #include "TurnBasedRPG/Data/CharacterInfo.h"
 #include "TurnBasedRPG/Data/CharacterClassInfo.h"
 #include "TurnBasedRPG/Combat/CombatEngine.h"
@@ -53,7 +54,7 @@ public:
     virtual void BeginDestroy() override;
 
 protected:
-    float TestDelayTimer;
+    ICombatAction* CombatAction;
 
 public:
     void BeginMakeDecision();

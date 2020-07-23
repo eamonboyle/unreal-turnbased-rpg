@@ -3,6 +3,8 @@
 
 #include "GameCharacter.h"
 
+#include "TurnBasedRPG/Actions/TestCombatAction.h"
+
 UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInfo, UObject* Outer)
 {
     UGameCharacter* Character = NewObject<UGameCharacter>(Outer);
@@ -70,23 +72,28 @@ void UGameCharacter::BeginDestroy()
 void UGameCharacter::BeginMakeDecision()
 {
     UE_LOG(LogTemp, Log, TEXT( "Character %s making decision" ), *this->CharacterName);
-    this->TestDelayTimer = 1;
+    this->CombatAction = new TestCombatAction();
 }
 
 bool UGameCharacter::MakeDecision(float DeltaSeconds)
 {
-    this->TestDelayTimer -= DeltaSeconds;
-    return this->TestDelayTimer <= 0;
+    return true;
 }
 
 void UGameCharacter::BeginExecuteAction()
 {
-    UE_LOG(LogTemp, Log, TEXT( "Character %s executing action" ), *this->CharacterName);
-    this->TestDelayTimer = 1;
+    this->CombatAction->BeginExecuteAction(this);
 }
 
 bool UGameCharacter::ExecuteAction(float DeltaSeconds)
 {
-    this->TestDelayTimer -= DeltaSeconds;
-    return this->TestDelayTimer <= 0;
+    bool FinishedAction = this->CombatAction->ExecuteAction(DeltaSeconds);
+
+    if (FinishedAction)
+    {
+        delete(this->CombatAction);
+        return true;
+    }
+
+    return false;
 }

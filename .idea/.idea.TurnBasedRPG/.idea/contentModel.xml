@@ -21,6 +21,12 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="Source" t="Include">
         <e p="TurnBasedRPG" t="Include">
+          <e p="Actions" t="Include">
+            <e p="CombatAction.cpp" t="Include" />
+            <e p="CombatAction.h" t="Include" />
+            <e p="TestCombatAction.cpp" t="Include" />
+            <e p="TestCombatAction.h" t="Include" />
+          </e>
           <e p="Actors" t="Include">
             <e p="MyNewActor.cpp" t="Include" />
             <e p="MyNewActor.h" t="Include" />

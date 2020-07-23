@@ -11,8 +11,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -21,17 +19,21 @@
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,10 +52,16 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatAction.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Action/TestCombatAction.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Action/TestCombatAction.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatAction.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actions/TestCombatAction.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
       </list>
     </option>
   </component>
@@ -489,7 +497,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="11318000" />
+      <workItem from="1595503400465" duration="12637000" />
     </task>
     <servers />
   </component>
@@ -502,10 +510,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="498" height="446" key="SwitcherDM" timestamp="1595517617612">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595519434373">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595517617612" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595519434373" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595506957869">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
