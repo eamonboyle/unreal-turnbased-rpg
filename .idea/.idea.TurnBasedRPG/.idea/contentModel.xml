@@ -26,6 +26,10 @@
             <e p="TestCustomData.cpp" t="Include" />
             <e p="TestCustomData.h" t="Include" />
           </e>
+          <e p="Characters" t="Include">
+            <e p="RPGCharacter.cpp" t="Include" />
+            <e p="RPGCharacter.h" t="Include" />
+          </e>
           <e p="TurnBasedRPG.Build.cs" t="Include" />
           <e p="TurnBasedRPG.cpp" t="Include" />
           <e p="TurnBasedRPG.h" t="Include" />

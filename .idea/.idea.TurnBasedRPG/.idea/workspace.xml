@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff3be38-353d-48aa-83e8-65b4111cfd4c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -8,18 +11,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" />
       </list>
     </option>
   </component>
@@ -455,7 +463,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="2004000" />
+      <workItem from="1595503400465" duration="3648000" />
     </task>
     <servers />
   </component>
@@ -466,5 +474,15 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595506845708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595506845708" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595506957869">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595506957869" />
   </component>
 </project>
