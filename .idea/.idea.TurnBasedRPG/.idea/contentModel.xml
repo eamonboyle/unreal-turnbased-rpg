@@ -9,6 +9,7 @@
         <e p="DefaultEditor.ini" t="Include" />
         <e p="DefaultEngine.ini" t="Include" />
         <e p="DefaultGame.ini" t="Include" />
+        <e p="DefaultInput.ini" t="Include" />
       </e>
       <e p="Engine" t="Include" />
       <e p="Games" t="Include" />
@@ -29,6 +30,14 @@
           <e p="Characters" t="Include">
             <e p="RPGCharacter.cpp" t="Include" />
             <e p="RPGCharacter.h" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="CharacterClassInfo.cpp" t="Include" />
+            <e p="CharacterClassInfo.h" t="Include" />
+            <e p="CharacterInfo.cpp" t="Include" />
+            <e p="CharacterInfo.h" t="Include" />
+            <e p="EnemyInfo.cpp" t="Include" />
+            <e p="EnemyInfo.h" t="Include" />
           </e>
           <e p="GameModes" t="Include">
             <e p="RPGGameMode.cpp" t="Include" />

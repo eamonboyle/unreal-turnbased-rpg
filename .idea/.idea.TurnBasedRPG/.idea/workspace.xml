@@ -11,13 +11,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -28,6 +36,12 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" />
       </list>
     </option>
   </component>
@@ -463,7 +477,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
-      <workItem from="1595503400465" duration="3648000" />
+      <workItem from="1595503400465" duration="6325000" />
     </task>
     <servers />
   </component>
