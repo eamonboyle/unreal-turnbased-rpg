@@ -20,6 +20,9 @@ public:
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Data")
     TArray<class UGameCharacter*> PartyMembers;
 
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Game Data");
+    bool TalkShop;
+
 protected:
     bool IsInitialized;
 
