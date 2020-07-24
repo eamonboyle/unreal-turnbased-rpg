@@ -48,6 +48,9 @@ public:
     UPROPERTY( EditAnywhere, BlueprintReadWrite, Category = CharacterInfo )
     int32 LUCK;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = CharacterInfo)
+    int32 Gold;
+
     CombatEngine* CombatInstance;
 
     static UGameCharacter* CreateGameCharacter(FCharacterInfo* CharacterInfo, UObject* Outer);

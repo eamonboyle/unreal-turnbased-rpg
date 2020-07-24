@@ -42,6 +42,10 @@ void ARPGGameMode::Tick(float DeltaSeconds)
             else if (this->CurrentCombatInstance->Phase == CombatPhase::CPHASE_Victory)
             {
                 UE_LOG(LogTemp, Warning, TEXT("Player wins combat"));
+
+                URPGGameInstance* GameInstance = Cast<URPGGameInstance>(GetGameInstance());
+
+                GameInstance->GameGold += this->CurrentCombatInstance->GoldTotal;
             }
 
             UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = false;

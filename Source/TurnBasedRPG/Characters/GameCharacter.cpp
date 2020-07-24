@@ -72,6 +72,8 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FEnemyInfo* EnemyInfo, UObje
     Character->DEF = EnemyInfo->DEF;
     Character->LUCK = EnemyInfo->Luck;
 
+    Character->Gold = EnemyInfo->Gold;
+
     Character->DecisionMaker = new TestDecisionMaker();
 
     Character->IsPlayer = false;

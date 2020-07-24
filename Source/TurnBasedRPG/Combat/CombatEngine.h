@@ -23,6 +23,8 @@ public:
 
     CombatPhase Phase;
 
+    int32 GoldTotal;
+
 protected:
     UGameCharacter* CurrentTickTarget;
     int TickTargetIndex;

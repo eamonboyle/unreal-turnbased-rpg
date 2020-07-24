@@ -120,18 +120,22 @@ bool CombatEngine::Tick(float DeltaSeconds)
 
     // check for victory
     DeadCount = 0;
+    int32 Gold = 0;
     for (int i = 0; i < this->EnemyParty.Num(); i++)
     {
         if (this->EnemyParty[i]->HP <= 0)
         {
             DeadCount++;
         }
+
+        Gold += this->EnemyParty[i]->Gold;
     }
 
     // all enemies have died, switch to victory phase
     if (DeadCount == this->EnemyParty.Num())
     {
         this->SetPhase(CombatPhase::CPHASE_Victory);
+        GoldTotal = Gold;
         return false;
     }
 
