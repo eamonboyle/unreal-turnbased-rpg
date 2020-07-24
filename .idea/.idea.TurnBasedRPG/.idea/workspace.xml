@@ -23,14 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff3be38-353d-48aa-83e8-65b4111cfd4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_AttackTargetOption.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_BaseCharacterCombatPanel.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_CombatUI.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_EnemyCharacterCombatPanel.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_PlayerCharacterCombatPanel.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_GameOver.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Inventory.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Main.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_DefaultRPGGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_DefaultRPGGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop_Welcome.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop_Welcome.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_AttackTargetOption.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_BaseCharacterCombatPanel.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_CombatUI.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_EnemyCharacterCombatPanel.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_GameOver.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Equipment.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Inventory.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Main.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_PlayerCharacterCombatPanel.uasset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +79,8 @@
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Runtime/AIModule/Private/Perception/AISense_Damage.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/DestructibleMeshDetails.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/Decorators/BTDecorator_ConditionalLoop.h" root0="FORCE_HIGHLIGHTING" />
@@ -124,6 +146,7 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" />
       </list>
     </option>
   </component>
@@ -566,7 +589,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
       <workItem from="1595503400465" duration="31365000" />
-      <workItem from="1595585689342" duration="1953000" />
+      <workItem from="1595585689342" duration="3095000" />
     </task>
     <servers />
   </component>

@@ -56,6 +56,8 @@
             <e p="CharacterInfo.h" t="Include" />
             <e p="EnemyInfo.cpp" t="Include" />
             <e p="EnemyInfo.h" t="Include" />
+            <e p="ItemsData.cpp" t="Include" />
+            <e p="ItemsData.h" t="Include" />
           </e>
           <e p="GameModes" t="Include">
             <e p="RPGGameMode.cpp" t="Include" />
