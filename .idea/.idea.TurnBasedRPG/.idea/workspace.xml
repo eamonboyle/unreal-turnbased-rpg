@@ -23,34 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff3be38-353d-48aa-83e8-65b4111cfd4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_AttackTargetOption.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_BaseCharacterCombatPanel.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_CombatUI.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_EnemyCharacterCombatPanel.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Combat/WBP_PlayerCharacterCombatPanel.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_GameOver.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Inventory.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Main.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Weapon.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Data/DT_Weapons.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_DefaultRPGGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameModes/BP_DefaultRPGGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop_Welcome.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop_Welcome.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_AttackTargetOption.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_BaseCharacterCombatPanel.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_CombatUI.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_EnemyCharacterCombatPanel.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_GameOver.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Equipment.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Inventory.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_Pause_Main.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WBP_PlayerCharacterCombatPanel.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +43,36 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/HoudiniEngine/Source/HoudiniEngineEditor/Private/HoudiniRuntimeSettingsDetails.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Runtime/Navmesh/Private/DetourTileCache/DetourTileCacheDetail.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Runtime/Core/Public/Containers/ContainerAllocationPolicies.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Shaders/Private/TonemapCommon.ush" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/HoudiniEngine/Source/HoudiniEngineRuntime/Private/HoudiniAssetParameterFloat.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/TurnBasedRPG.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapConnections/Source/Public/MagicLeapConnectionsTypes.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Editor/KismetCompiler/Private/KismetCompilerVMBackend.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Editor/ContentBrowser/Private/SAssetView.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/DecisionMaker.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayCueTranslator.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/DecisionMaker.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/Actions/TestCombatAction.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/Actions/CombatAction.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemGlobals.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Public/Channels/RemoteSessionARSystemChannel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Developer/Windows/LiveCoding/Private/External/xxhash.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/HoudiniEngine/Source/HoudiniEngineEditor/Private/HoudiniRuntimeSettingsDetails.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Shaders/Private/TonemapCommon.ush" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Editor/BlueprintGraph/Private/CallFunctionHandler.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -86,26 +87,12 @@
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Runtime/AIModule/Classes/BehaviorTree/Decorators/BTDecorator_ConditionalLoop.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor/Private/SCodeEditableText.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Editor/ContentBrowser/Private/SAssetView.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/TestCustomData.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/DecisionMaker.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayCueTranslator.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/DecisionMaker.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/Actions/TestCombatAction.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Editor/UnrealEd/Private/EditorServer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithFBXTranslator/Private/DatasmithFBXFileImporter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Combat/Actions/CombatAction.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Classes/NUTActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Actors/MyNewActor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Public/Channels/RemoteSessionARSystemChannel.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://F:/Epic Games/UE_4.25/Engine/Source/Developer/Windows/LiveCoding/Private/External/xxhash.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -137,7 +124,6 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/DecisionMakers/TestDecisionMaker.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
@@ -145,8 +131,9 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
       </list>
     </option>
   </component>
@@ -589,7 +576,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
       <workItem from="1595503400465" duration="31365000" />
-      <workItem from="1595585689342" duration="3095000" />
+      <workItem from="1595585689342" duration="3950000" />
     </task>
     <servers />
   </component>
@@ -618,14 +605,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="164" key="RiderGenerateDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595527879758" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1595590497113">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595600219152">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595590497113" />
-    <state x="638" y="258" width="891" height="534" key="find.popup" timestamp="1595545757664">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595600219152" />
+    <state x="638" y="258" width="891" height="534" key="find.popup" timestamp="1595600189659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="638" y="258" width="891" height="534" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595545757664" />
+    <state x="638" y="258" width="891" height="534" key="find.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595600189659" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1595506957869">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

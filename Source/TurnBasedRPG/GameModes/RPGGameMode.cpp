@@ -118,3 +118,14 @@ void ARPGGameMode::TestCombat()
         this->CombatUIInstance->AddEnemyCharacterPanel(this->EnemyParty[i]);
     }
 }
+
+void ARPGGameMode::GiveGold(int32 Amount)
+{
+    // TODO: Delete this if out of development
+    URPGGameInstance* GameInstance = Cast<URPGGameInstance>(GetGameInstance());
+
+    if (GameInstance != nullptr)
+    {
+        GameInstance->GameGold += Amount;
+    }
+}

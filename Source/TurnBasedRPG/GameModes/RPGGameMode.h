@@ -36,4 +36,7 @@ public:
 
     UFUNCTION(Exec)
     void TestCombat();
+
+    UFUNCTION(Exec)
+    void GiveGold(int32 Amount);
 };
