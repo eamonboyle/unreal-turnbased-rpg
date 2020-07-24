@@ -17,6 +17,7 @@ class TURNBASEDRPG_API URPGGameInstance : public UGameInstance
 public:
     URPGGameInstance(const class FObjectInitializer& ObjectInitializer);
 
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Data")
     TArray<class UGameCharacter*> PartyMembers;
 
 protected:

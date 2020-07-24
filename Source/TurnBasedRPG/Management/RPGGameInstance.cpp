@@ -33,7 +33,7 @@ void URPGGameInstance::Init()
         return;
     }
 
-    // add character to party
+    // add character to partygameins
     this->PartyMembers.Add(UGameCharacter::CreateGameCharacter(Row, this));
 
     this->IsInitialized = true;
