@@ -45,7 +45,29 @@ void ARPGGameMode::Tick(float DeltaSeconds)
 
                 URPGGameInstance* GameInstance = Cast<URPGGameInstance>(GetGameInstance());
 
-                GameInstance->GameGold += this->CurrentCombatInstance->GoldTotal;
+                if (GameInstance != nullptr)
+                {
+                    // add the gold from the win
+                    GameInstance->GameGold += this->CurrentCombatInstance->GoldTotal;
+
+                    // apply xp for the win
+                    for (int i = 0; i < GameInstance->PartyMembers.Num(); i++)
+                    {
+                        GameInstance->PartyMembers[i]->XP += this->CurrentCombatInstance->XPTotal;
+
+                        // if character has leveled up
+                        if (GameInstance->PartyMembers[i]->XP >= GameInstance->PartyMembers[i]->MXP)
+                        {
+                            GameInstance->PartyMembers[i]->Lvl++;
+                            GameInstance->PartyMembers[i]->MHP++;
+                            GameInstance->PartyMembers[i]->MMP++;
+                            GameInstance->PartyMembers[i]->ATK++;
+                            GameInstance->PartyMembers[i]->DEF++;
+                            GameInstance->PartyMembers[i]->LUCK++;
+                            GameInstance->PartyMembers[i]->MXP += GameInstance->PartyMembers[i]->MXP;
+                        }
+                    }
+                }
             }
 
             UGameplayStatics::GetPlayerController(GetWorld(), 0)->bShowMouseCursor = false;

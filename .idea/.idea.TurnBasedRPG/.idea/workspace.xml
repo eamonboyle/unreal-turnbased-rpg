@@ -23,15 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ff3be38-353d-48aa-83e8-65b4111cfd4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Weapon.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Data/DT_Weapons.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Characters/BP_RPGCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Menus/WBP_Pause_Equipment.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Item.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Shop.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/DT_Items_Shop.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TurnBasedRPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Weapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/NPC/WBP_Weapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,6 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/RPGCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatAction.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Action/TestCombatAction.cpp" />
@@ -125,14 +124,15 @@
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/UI/CombatUIWidget.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.cpp" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
+        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/CharacterClassInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/EnemyInfo.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Characters/GameCharacter.cpp" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Combat/CombatEngine.cpp" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Management/RPGGameInstance.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/Data/ItemsData.h" />
-        <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.h" />
         <option value="$PROJECT_DIR$/Source/TurnBasedRPG/GameModes/RPGGameMode.cpp" />
       </list>
     </option>
@@ -576,7 +576,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595503338744</updated>
       <workItem from="1595503400465" duration="31365000" />
-      <workItem from="1595585689342" duration="3950000" />
+      <workItem from="1595585689342" duration="5404000" />
     </task>
     <servers />
   </component>
@@ -605,10 +605,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="668" y="164" key="RiderGenerateDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595527879758" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1595600219152">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595603158976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595600219152" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1595603158976" />
     <state x="638" y="258" width="891" height="534" key="find.popup" timestamp="1595600189659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

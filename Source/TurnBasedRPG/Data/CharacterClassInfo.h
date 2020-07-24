@@ -46,6 +46,15 @@ public:
     UPROPERTY( BlueprintReadWrite, EditAnywhere, Category = "ClassInfo" )
     int32 EndLuck;
 
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ClassInfo")
+    int32 XP;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ClassInfo")
+    int32 MXP;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ClassInfo")
+    int32 Lvl;
+
     UPROPERTY( BlueprintReadWrite, EditAnywhere, Category = "ClassInfo" )
     TArray<FString> StartingAbilities;
 

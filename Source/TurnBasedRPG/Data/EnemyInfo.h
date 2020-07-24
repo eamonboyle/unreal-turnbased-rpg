@@ -30,6 +30,9 @@ public:
     UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "EnemyInfo")
     int32 Gold;
 
+    UPROPERTY(BlueprintReadOnly, EditAnywhere, Category = "EnemyInfo")
+    int32 XP;
+
     UPROPERTY( BlueprintReadOnly, EditAnywhere, Category = "EnemyInfo" )
     TArray<FString> Abilities;
 };
