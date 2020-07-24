@@ -46,6 +46,9 @@ UGameCharacter* UGameCharacter::CreateGameCharacter(FCharacterInfo* CharacterInf
 
         Character->MXP = Character->ClassInfo->MXP;
         Character->Lvl = Character->ClassInfo->Lvl;
+
+        Character->LearnedAbilities = Character->ClassInfo->LearnedAbilities;
+        
         Character->IsPlayer = true;
     }
 
